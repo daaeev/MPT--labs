@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/usr/src/app/Lab1/Lab1.csproj": {}
+    "/usr/src/app/Lab2/Lab2.csproj": {}
   },
   "projects": {
-    "/usr/src/app/Lab1/Lab1.csproj": {
+    "/usr/src/app/Lab2/Lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/usr/src/app/Lab1/Lab1.csproj",
-        "projectName": "Lab1",
-        "projectPath": "/usr/src/app/Lab1/Lab1.csproj",
+        "projectUniqueName": "/usr/src/app/Lab2/Lab2.csproj",
+        "projectName": "Lab2",
+        "projectPath": "/usr/src/app/Lab2/Lab2.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/usr/src/app/Lab1/obj/",
+        "outputPath": "/usr/src/app/Lab2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -49,6 +59,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
