@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/usr/src/app/Lab2/Lab2.csproj": {}
+    "/usr/src/app/Lab3/Lab3.csproj": {}
   },
   "projects": {
-    "/usr/src/app/Lab2/Lab2.csproj": {
+    "/usr/src/app/Lab3/Lab3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/usr/src/app/Lab2/Lab2.csproj",
-        "projectName": "Lab2",
-        "projectPath": "/usr/src/app/Lab2/Lab2.csproj",
+        "projectUniqueName": "/usr/src/app/Lab3/Lab3.csproj",
+        "projectName": "Lab3",
+        "projectPath": "/usr/src/app/Lab3/Lab3.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/usr/src/app/Lab2/obj/",
+        "outputPath": "/usr/src/app/Lab3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
@@ -44,7 +44,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[7.1.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
